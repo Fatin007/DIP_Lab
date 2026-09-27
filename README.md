@@ -60,3 +60,12 @@ python p14_logic.py
 - Grayscale display uses `cmap='gray'`.
 - Color display converts BGR → RGB for accurate rendering in Matplotlib.
 - Sample image paths are placeholders — supply your own files (`.jpg`, `.png`, `.bmp`, ...).
+
+## Credits — Test Images
+
+The images used for testing the scripts in this repo (e.g. `images/additional/classic/boats.bmp`) are from the Kaggle dataset:
+
+**"Standard Test Images"** by *saeedehkamjoo* —
+[https://www.kaggle.com/datasets/saeedehkamjoo/standard-test-images](https://www.kaggle.com/datasets/saeedehkamjoo/standard-test-images)
+
+This collection is itself a redistribution of the classic grayscale / color test images widely used in image-processing textbooks and benchmarks (Lena, Cameraman, Peppers, Boats, etc.). Please credit the original source / publisher of each image when used in academic or published work.
