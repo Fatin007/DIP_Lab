@@ -55,10 +55,6 @@ python p14_logic.py
 ```
 
 ## Notes
-
-- All scripts use `cv2.imread(..., IMREAD_UNCHANGED)` so the original bit-depth and channel count are preserved.
-- Grayscale display uses `cmap='gray'`.
-- Color display converts BGR → RGB for accurate rendering in Matplotlib.
 - Sample image paths are placeholders - supply your own files (`.jpg`, `.png`, `.bmp`, ...).
 
 ## Credits - Test Images
