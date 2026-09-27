@@ -36,10 +36,10 @@ python p2_color_to_gray.py photo.jpg
 python p5_threshold.py lena.png
 ```
 
-A few scripts have sample lists at the top of the file — edit the paths and re-run:
+A few scripts have sample lists at the top of the file - edit the paths and re-run:
 
-- **p4_modalities.py** — `IMAGES = [(path, modality, application), ...]`
-- **p9_histogram.py** — `SAMPLES = [(path, label), ...]`
+- **p4_modalities.py** - `IMAGES = [(path, modality, application), ...]`
+- **p9_histogram.py** - `SAMPLES = [(path, label), ...]`
 
 Scripts with multiple inputs:
 
@@ -59,13 +59,13 @@ python p14_logic.py
 - All scripts use `cv2.imread(..., IMREAD_UNCHANGED)` so the original bit-depth and channel count are preserved.
 - Grayscale display uses `cmap='gray'`.
 - Color display converts BGR → RGB for accurate rendering in Matplotlib.
-- Sample image paths are placeholders — supply your own files (`.jpg`, `.png`, `.bmp`, ...).
+- Sample image paths are placeholders - supply your own files (`.jpg`, `.png`, `.bmp`, ...).
 
 ## Credits - Test Images
 
 The images used for testing the scripts in this repo (e.g. `images/additional/classic/boats.bmp`) are from the Kaggle dataset:
 
-**"Standard Test Images"** by *saeedehkamjoo* —
+**"Standard Test Images"** by *saeedehkamjoo* -
 [https://www.kaggle.com/datasets/saeedehkamjoo/standard-test-images](https://www.kaggle.com/datasets/saeedehkamjoo/standard-test-images)
 
 This collection is itself a redistribution of the classic grayscale / color test images widely used in image-processing textbooks and benchmarks (Lena, Cameraman, Peppers, Boats, etc.).
